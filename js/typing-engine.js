@@ -1,8 +1,9 @@
 import { DOM } from './dom.js';
 import { state } from './state.js';
 import { generateGeneralText, generateIELTStext } from './text-generator.js';
-import { renderWords, updateWordDOM, updateCaretPosition, updateLiveStats } from './ui.js';
+import { renderWords, updateWordDOM, updateCaretPosition, updateLiveStats, resetTypingScroll } from './ui.js';
 import { calculateStats } from './utils.js';
+import { updateTask1ChartPanel } from './task1-charts.js';
 
 export function startTimer() {
     state.startTime = Date.now();
@@ -35,10 +36,22 @@ export function initTest(newText = true) {
     // Update UI Header
     if (state.mode === 'ielts' && state.currentEssay) {
         DOM.textInfo.classList.remove('hidden');
-        DOM.infoType.textContent = state.currentEssay.selectedType;
+        const taskLabel = state.currentEssay.ieltsTask === 'task1' ? 'Task 1' : 'Task 2';
+        DOM.infoTask.textContent = taskLabel;
+        const typeLabels = {
+            introduction: 'Introduction',
+            overview: 'Overview',
+            body1: 'Body 1',
+            body2: 'Body 2',
+            conclusion: 'Conclusion',
+            random: state.currentEssay.selectedType,
+        };
+        DOM.infoType.textContent = typeLabels[state.currentEssay.selectedType] || state.currentEssay.selectedType;
         DOM.infoTopic.textContent = `Topic: ${state.currentEssay.topic}`;
+        updateTask1ChartPanel(DOM.task1ChartPanel, DOM.task1Chart, state.currentEssay);
     } else {
         DOM.textInfo.classList.add('hidden');
+        updateTask1ChartPanel(DOM.task1ChartPanel, DOM.task1Chart, null);
     }
     
     // Switch Views
@@ -62,8 +75,8 @@ export function initTest(newText = true) {
     DOM.liveAcc.textContent = '100%';
     DOM.liveTime.textContent = '0s';
     
-    // Reset scroll just in case
-    DOM.wordsContainer.scrollTop = 0;
+    // Reset scroll
+    resetTypingScroll();
     
     renderWords();
     updateCaretPosition();

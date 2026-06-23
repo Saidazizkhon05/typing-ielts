@@ -1,0 +1,86 @@
+export const TASK1_CHARTS = {
+    1: {
+        image: null,
+        source: 'https://resources.cathoven.com/ielts-writing-task-1/tips',
+        sourceLabel: 'Cathoven',
+        credit: 'Practice sample — no official exam chart published for this prompt',
+        fallback: {
+            kind: 'line',
+            title: 'Household internet access (%) — illustrative',
+            xLabels: ['2000', '2005', '2010', '2015', '2020'],
+            yMax: 100,
+            series: [
+                { name: 'Germany', values: [30, 55, 75, 88, 93] },
+                { name: 'Japan', values: [25, 50, 70, 85, 91] },
+                { name: 'Brazil', values: [5, 15, 35, 55, 70] },
+                { name: 'Nigeria', values: [2, 3, 4, 15, 27] },
+            ],
+        },
+    },
+    2: {
+        image: './images/task1/02-uk-visits.jpg',
+        imageFallback: 'https://ieltsliz.com/wp-content/uploads/2015/07/ielts-Line-and-bar-graph-sample.jpg',
+        source: 'https://ieltsliz.com/ielts-line-graph-and-bar-chart-model-answer-band-9/',
+        sourceLabel: 'IELTS Liz — Cambridge 4 Test 4',
+    },
+    3: {
+        image: './images/task1/03-france-energy.png',
+        imageFallback: 'https://ieltsliz.com/wp-content/uploads/2014/11/ielts-pie-chart-comparison.png',
+        source: 'https://ieltsliz.com/ielts-pie-chart-task-1-model-score-9/',
+        sourceLabel: 'IELTS Liz',
+    },
+    4: {
+        image: './images/task1/04-yemen-italy.png',
+        imageFallback: 'https://ieltswriting.org/wp-content/uploads/2024/09/ielts-9a-3-1.png',
+        source: 'https://www.ieltsadvantage.com/2015/04/09/writing-task-1-pie-chart-answer-italy-and-yemen-populations/',
+        sourceLabel: 'IELTS Advantage — Cambridge 9 Test 3',
+    },
+    5: {
+        image: './images/task1/05-urban-asia.png',
+        imageFallback: 'https://ieltswriting.org/wp-content/uploads/2024/09/ielts-12a-6-1.png',
+        source: 'https://ielts.idp.com/vietnam/about/news-and-articles/article-ielts-writing-task-1-sample-band-9/en-gb',
+        sourceLabel: 'IDP IELTS — Cambridge 12 Test 6',
+    },
+    6: {
+        image: './images/task1/06-consumer.png',
+        imageFallback: 'https://ieltswriting.org/wp-content/uploads/2024/09/ielts-10a-2-1.png',
+        source: 'https://ieltspracticeonline.com/writing-task-1-the-expenditure-of-two-countries-on-consumer-goods-in-2010/',
+        sourceLabel: 'IELTS Practice Online — Cambridge 10 Test 2',
+    },
+    7: {
+        image: './images/task1/07-fruit.png',
+        imageFallback: 'https://ieltsliz.com/wp-content/uploads/2024/08/IELTS-Bar-Chart-Answer-Sample.png',
+        source: 'https://ieltsliz.com/ielts-model-answer-bar-chart-october-2018/',
+        sourceLabel: 'IELTS Liz',
+    },
+    8: {
+        image: './images/task1/08-university.png',
+        imageFallback: 'https://ieltswriting.org/wp-content/uploads/2024/09/ielts-7-test-3-task-1-chart-academic.png',
+        source: 'https://ielts.idp.com/vietnam/about/news-and-articles/article-ielts-writing-task-1-sample-band-9/en-gb',
+        sourceLabel: 'IDP IELTS — Cambridge 7 Test 3',
+    },
+    9: {
+        image: './images/task1/09-paper.png',
+        imageFallback: 'https://ieltswriting.org/wp-content/uploads/2024/09/ielts-11a-1-1.png',
+        source: 'https://ieltswriting.org/ielts-11-test-1-writing-task-1-with-sample-answer-academic/',
+        sourceLabel: 'IELTS Writing — Cambridge 11 Test 1',
+    },
+    10: {
+        image: './images/task1/10-cement.jpg',
+        imageFallback: 'https://ieltsliz.com/wp-content/uploads/2014/11/cement-and-concrete.jpg',
+        source: 'https://ieltsliz.com/ielts-diagram-model-answer-score-9/',
+        sourceLabel: 'IELTS Liz — Cambridge 8 Test 3',
+    },
+    11: {
+        image: './images/task1/11-silkworm.png',
+        imageFallback: 'https://ieltswriting.org/wp-content/uploads/2024/09/ielts-6a-3-1.png',
+        source: 'https://www.ieltsadvantage.com/2015/03/11/writing-task-1-sample-answer-process-question/',
+        sourceLabel: 'IELTS Advantage — Cambridge 6 Test 3',
+    },
+    12: {
+        image: './images/task1/12-weather.png',
+        imageFallback: 'https://www.ielts-mentor.com/images/writingsamples/graph-86-how-australia-collects-information-on-weather.png',
+        source: 'https://www.ielts-mentor.com/writing-sample/academic-writing-task-1/1020-ielts-academic-writing-task-1-sample-20',
+        sourceLabel: 'IELTS Mentor — Cambridge 8 Test 1',
+    },
+};

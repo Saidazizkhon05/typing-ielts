@@ -2,6 +2,8 @@ import { DOM } from './dom.js';
 import { state } from './state.js';
 import { calculateStats } from './utils.js';
 
+const CARET_LINE_OFFSET = 48;
+
 export function updateLiveStats() {
     const stats = calculateStats(state);
     DOM.liveWpm.textContent = stats.wpm;
@@ -12,11 +14,11 @@ export function updateLiveStats() {
 export function renderWords() {
     DOM.wordsContainer.innerHTML = '';
     state.wordElements = [];
-    
+
     state.words.forEach((word) => {
         const wordEl = document.createElement('div');
         wordEl.className = 'word';
-        
+
         const letters = [];
         for (let i = 0; i < word.length; i++) {
             const letterEl = document.createElement('span');
@@ -25,12 +27,11 @@ export function renderWords() {
             wordEl.appendChild(letterEl);
             letters.push(letterEl);
         }
-        
+
         DOM.wordsContainer.appendChild(wordEl);
-        state.wordElements.push({ el: wordEl, letters: letters, typed: '' });
+        state.wordElements.push({ el: wordEl, letters, typed: '' });
     });
-    
-    // Fallback error warning
+
     if (DOM.wordsContainer.innerHTML === '') {
         DOM.wordsContainer.innerHTML = '<span style="color:red; font-size: 2rem;">ERROR: renderWords produced empty HTML!</span>';
     }
@@ -38,25 +39,21 @@ export function renderWords() {
 
 export function updateWordDOM(wordObj, targetWord, typedWord) {
     const letters = wordObj.letters;
-    
-    // Reset extra letters if they exist
+
     const extraLetters = wordObj.el.querySelectorAll('.extra');
     extraLetters.forEach(el => el.remove());
-    
+
     for (let i = 0; i < Math.max(targetWord.length, typedWord.length); i++) {
         if (i < targetWord.length) {
             const letterEl = letters[i];
             if (i < typedWord.length) {
-                if (typedWord[i] === targetWord[i]) {
-                    letterEl.className = 'letter correct';
-                } else {
-                    letterEl.className = 'letter incorrect';
-                }
+                letterEl.className = typedWord[i] === targetWord[i]
+                    ? 'letter correct'
+                    : 'letter incorrect';
             } else {
                 letterEl.className = 'letter';
             }
         } else if (i < typedWord.length) {
-            // Extra letters typed beyond target word length
             const extraEl = document.createElement('span');
             extraEl.className = 'letter incorrect extra';
             extraEl.textContent = typedWord[i];
@@ -65,46 +62,58 @@ export function updateWordDOM(wordObj, targetWord, typedWord) {
     }
 }
 
+function scrollCaretIntoView(caretTop) {
+    const scrollContainer = DOM.typingAreaWrapper;
+    if (!scrollContainer) return;
+
+    scrollContainer.scrollTop = Math.max(0, caretTop - CARET_LINE_OFFSET);
+}
+
 export function updateCaretPosition() {
     if (state.currentWordIndex >= state.wordElements.length) return;
-    
+
+    const scrollContainer = DOM.typingAreaWrapper;
+    if (!scrollContainer) return;
+
     const wordObj = state.wordElements[state.currentWordIndex];
     let targetEl;
-    
+
     if (state.currentCharIndex === 0) {
         targetEl = wordObj.letters[0];
-        if (targetEl) {
-            const letterRect = targetEl.getBoundingClientRect();
-            const containerRect = DOM.wordsContainer.getBoundingClientRect();
-            const top = letterRect.top - containerRect.top + DOM.wordsContainer.scrollTop;
-            const left = letterRect.left - containerRect.left + DOM.wordsContainer.scrollLeft;
-            DOM.caret.style.left = left + 'px';
-            DOM.caret.style.top = top + 'px';
-        }
-    } else {
-        // Place caret after the last typed character
-        const charIdx = Math.min(state.currentCharIndex - 1, wordObj.letters.length - 1);
-        const extraLetters = wordObj.el.querySelectorAll('.extra');
-        
-        if (extraLetters.length > 0) {
-            targetEl = extraLetters[extraLetters.length - 1];
-        } else {
-            targetEl = wordObj.letters[charIdx];
-        }
-        
-        if (targetEl) {
-            const letterRect = targetEl.getBoundingClientRect();
-            const containerRect = DOM.wordsContainer.getBoundingClientRect();
-            const top = letterRect.top - containerRect.top + DOM.wordsContainer.scrollTop;
-            const left = letterRect.left - containerRect.left + DOM.wordsContainer.scrollLeft + letterRect.width;
-            DOM.caret.style.left = left + 'px';
-            DOM.caret.style.top = top + 'px';
-        }
+        if (!targetEl) return;
+
+        const letterRect = targetEl.getBoundingClientRect();
+        const containerRect = scrollContainer.getBoundingClientRect();
+        const top = letterRect.top - containerRect.top + scrollContainer.scrollTop;
+        const left = letterRect.left - containerRect.left;
+
+        DOM.caret.style.left = `${left}px`;
+        DOM.caret.style.top = `${top}px`;
+        scrollCaretIntoView(top);
+        return;
     }
-    
-    // Scroll tracking
-    const topPos = parseInt(DOM.caret.style.top, 10);
-    if (topPos > DOM.wordsContainer.scrollTop + 100) {
-        DOM.wordsContainer.scrollTop += 40;
+
+    const charIdx = Math.min(state.currentCharIndex - 1, wordObj.letters.length - 1);
+    const extraLetters = wordObj.el.querySelectorAll('.extra');
+
+    targetEl = extraLetters.length > 0
+        ? extraLetters[extraLetters.length - 1]
+        : wordObj.letters[charIdx];
+
+    if (!targetEl) return;
+
+    const letterRect = targetEl.getBoundingClientRect();
+    const containerRect = scrollContainer.getBoundingClientRect();
+    const top = letterRect.top - containerRect.top + scrollContainer.scrollTop;
+    const left = letterRect.left - containerRect.left + letterRect.width;
+
+    DOM.caret.style.left = `${left}px`;
+    DOM.caret.style.top = `${top}px`;
+    scrollCaretIntoView(top);
+}
+
+export function resetTypingScroll() {
+    if (DOM.typingAreaWrapper) {
+        DOM.typingAreaWrapper.scrollTop = 0;
     }
 }

@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MonkeyType IELTS - Band 9 Essay Typing Practice</title>
-    <meta name="description" content="Practice typing IELTS Band 9 essay paragraphs and improve your typing speed with real exam-style texts.">
+    <title>MonkeyType IELTS - Band 9 Typing Practice</title>
+    <meta name="description" content="Practice typing IELTS Band 9 Task 1 reports and Task 2 essay paragraphs to improve your typing speed.">
     <meta name="author" content="Saidazizkhon">
     <link rel="canonical" href="https://typing.saidaziz.uz/">
     <!-- Open Graph -->
     <meta property="og:title" content="MonkeyType IELTS - Band 9 Typing Practice">
-    <meta property="og:description" content="Improve your typing speed using real IELTS Band 9 essay paragraphs.">
+    <meta property="og:description" content="Improve your typing speed using real IELTS Band 9 Task 1 reports and Task 2 essay paragraphs.">
     <meta property="og:url" content="https://typing.saidaziz.uz/">
     <meta property="og:type" content="website">
-    <link rel="stylesheet" href="style.css?v=4">
+    <link rel="stylesheet" href="style.css?v=11">
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -33,7 +33,7 @@
         </header>
 
         <!-- Mode Selection Screen -->
-        <main id="setup-container">
+        <main id="setup-container" class="screen">
             <h2>Select Mode</h2>
             <div class="mode-cards">
                 <div class="mode-card" id="mode-general" data-mode="general">
@@ -44,23 +44,34 @@
                 <div class="mode-card" id="mode-ielts" data-mode="ielts">
                     <i class="fa-solid fa-graduation-cap"></i>
                     <h3>IELTS Band 9</h3>
-                    <p>Practice typing full Band 9 essay paragraphs.</p>
+                    <p>Practice typing Band 9 Task 1 reports and Task 2 essays.</p>
                 </div>
             </div>
 
             <div class="ielts-options" id="ielts-options">
-                <button class="option-btn" data-type="random">Random</button>
-                <button class="option-btn" data-type="introduction">Introduction</button>
-                <button class="option-btn" data-type="body1">Body 1</button>
-                <button class="option-btn" data-type="body2">Body 2</button>
-                <button class="option-btn" data-type="conclusion">Conclusion</button>
+                <div class="ielts-task-toggle" id="ielts-task-toggle">
+                    <button class="task-btn active" data-task="task1">Task 1</button>
+                    <button class="task-btn" data-task="task2">Task 2</button>
+                    <button class="task-btn" data-task="random">Random</button>
+                </div>
+                <div class="ielts-paragraph-options" id="ielts-paragraph-options">
+                    <button class="option-btn" data-type="introduction">Introduction</button>
+                    <button class="option-btn option-task1" data-type="overview">Overview</button>
+                    <button class="option-btn" data-type="body1">Body 1</button>
+                    <button class="option-btn" data-type="body2">Body 2</button>
+                    <button class="option-btn option-task2" data-type="conclusion">Conclusion</button>
+                </div>
             </div>
 
             <button class="start-btn" id="start-btn" disabled>Start Typing</button>
         </main>
 
         <!-- Typing Test Screen -->
-        <main id="typing-container">
+        <main id="typing-container" class="screen">
+            <div class="task1-chart-panel hidden" id="task1-chart-panel">
+                <div class="task1-chart" id="task1-chart"></div>
+            </div>
+
             <div class="text-info hidden" id="text-info">
                 <span class="info-task">Task 2</span>
                 <span class="info-type" id="info-type">Introduction</span>
@@ -88,7 +99,7 @@
         </main>
 
         <!-- Results Screen -->
-        <main id="results-container">
+        <main id="results-container" class="screen">
             <div class="results-stats">
                 <div class="stat-box">
                     <div class="stat-title">wpm</div>
@@ -117,15 +128,15 @@
             </div>
         </main>
 
-        <footer>
+        <footer class="site-footer">
             <a href="#"><i class="fa-solid fa-envelope"></i> contact</a>
-            &nbsp; | &nbsp;
+            <span class="footer-sep">|</span>
             <a href="#"><i class="fa-solid fa-shield-halved"></i> privacy</a>
-            &nbsp; | &nbsp;
+            <span class="footer-sep">|</span>
             <span>theme: dark</span>
         </footer>
     </div>
 
-    <script type="module" src="js/app.js?v=5"></script>
+    <script type="module" src="js/app.js?v=11"></script>
 </body>
 </html>

@@ -10,20 +10,30 @@ export function generateGeneralText(wordCount = 50) {
     return text.join(' ');
 }
 
+const TASK1_TYPES = ['introduction', 'overview', 'body1', 'body2'];
+const TASK2_TYPES = ['introduction', 'body1', 'body2', 'conclusion'];
+
 export function generateIELTStext() {
-    if (!state.essays || state.essays.length === 0) return generateGeneralText();
-    
-    const randomEssay = state.essays[Math.floor(Math.random() * state.essays.length)];
-    state.currentEssay = randomEssay;
-    
-    let targetType = state.ieltsType;
-    if (targetType === 'random') {
-        const types = ['introduction', 'body1', 'body2', 'conclusion'];
+    let isTask1;
+    let targetType;
+
+    if (state.ieltsTask === 'random') {
+        isTask1 = Math.random() < 0.5;
+        const types = isTask1 ? TASK1_TYPES : TASK2_TYPES;
         targetType = types[Math.floor(Math.random() * types.length)];
+    } else {
+        isTask1 = state.ieltsTask === 'task1';
+        targetType = state.ieltsType;
     }
-    
-    state.currentEssay.selectedType = targetType; // Save what type was actually selected
-    
-    const text = randomEssay.paragraphs[targetType];
-    return text || generateGeneralText(); // Fallback if missing
+
+    const pool = isTask1 ? state.task1Reports : state.essays;
+    if (!pool || pool.length === 0) return generateGeneralText();
+
+    const randomItem = pool[Math.floor(Math.random() * pool.length)];
+    state.currentEssay = randomItem;
+    state.currentEssay.selectedType = targetType;
+    state.currentEssay.ieltsTask = isTask1 ? 'task1' : 'task2';
+
+    const text = randomItem.paragraphs[targetType];
+    return text || generateGeneralText();
 }

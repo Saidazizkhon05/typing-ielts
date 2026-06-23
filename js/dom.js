@@ -6,15 +6,20 @@ export const DOM = {
     
     modeCards: document.querySelectorAll('.mode-card'),
     ieltsOptions: document.getElementById('ielts-options'),
+    taskBtns: document.querySelectorAll('.task-btn'),
+    paragraphOptions: document.getElementById('ielts-paragraph-options'),
     optionBtns: document.querySelectorAll('.option-btn'),
     startBtn: document.getElementById('start-btn'),
     
     wordsContainer: document.getElementById('words'),
+    typingAreaWrapper: document.querySelector('.typing-area-wrapper'),
     caret: document.getElementById('caret'),
     hiddenInput: document.getElementById('hidden-input'),
     blurWarning: document.getElementById('blur-warning'),
     
     textInfo: document.getElementById('text-info'),
+    task1ChartPanel: document.getElementById('task1-chart-panel'),
+    task1Chart: document.getElementById('task1-chart'),
     infoTask: document.querySelector('.info-task'),
     infoType: document.getElementById('info-type'),
     infoTopic: document.getElementById('info-topic'),
