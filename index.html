@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MonkeyType IELTS - Band 9 Essay Typing Practice</title>
+    <meta name="description" content="Practice typing IELTS Band 9 essay paragraphs and improve your typing speed with real exam-style texts.">
+    <meta name="author" content="Saidazizkhon">
+    <link rel="canonical" href="https://typing.saidaziz.uz/">
+    <!-- Open Graph -->
+    <meta property="og:title" content="MonkeyType IELTS - Band 9 Typing Practice">
+    <meta property="og:description" content="Improve your typing speed using real IELTS Band 9 essay paragraphs.">
+    <meta property="og:url" content="https://typing.saidaziz.uz/">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="style.css?v=4">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="loading-overlay">
+        <div class="loader"></div>
+    </div>
+
+    <div class="container">
+        <header>
+            <a href="#/" class="logo" style="text-decoration: none; color: inherit;">
+                <i class="fa-solid fa-keyboard"></i>
+                monkey<span>type</span> ielts
+            </a>
+            <div class="nav-buttons">
+                <a href="#/" class="nav-btn" id="nav-setup" title="Setup"><i class="fa-solid fa-cog"></i></a>
+            </div>
+        </header>
+
+        <!-- Mode Selection Screen -->
+        <main id="setup-container">
+            <h2>Select Mode</h2>
+            <div class="mode-cards">
+                <div class="mode-card" id="mode-general" data-mode="general">
+                    <i class="fa-solid fa-font"></i>
+                    <h3>General</h3>
+                    <p>Standard random english words practice.</p>
+                </div>
+                <div class="mode-card" id="mode-ielts" data-mode="ielts">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h3>IELTS Band 9</h3>
+                    <p>Practice typing full Band 9 essay paragraphs.</p>
+                </div>
+            </div>
+
+            <div class="ielts-options" id="ielts-options">
+                <button class="option-btn" data-type="random">Random</button>
+                <button class="option-btn" data-type="introduction">Introduction</button>
+                <button class="option-btn" data-type="body1">Body 1</button>
+                <button class="option-btn" data-type="body2">Body 2</button>
+                <button class="option-btn" data-type="conclusion">Conclusion</button>
+            </div>
+
+            <button class="start-btn" id="start-btn" disabled>Start Typing</button>
+        </main>
+
+        <!-- Typing Test Screen -->
+        <main id="typing-container">
+            <div class="text-info hidden" id="text-info">
+                <span class="info-task">Task 2</span>
+                <span class="info-type" id="info-type">Introduction</span>
+                <span class="info-topic" id="info-topic">Topic: ...</span>
+            </div>
+
+            <div class="stats">
+                <div id="live-wpm">0</div>
+                <div id="live-acc">100%</div>
+                <div id="live-time">0s</div>
+            </div>
+            
+            <div class="typing-area-wrapper">
+                <div id="words"></div>
+                <div id="caret"></div>
+                <input type="text" id="hidden-input" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+                <div class="blur-warning hidden" id="blur-warning">
+                    Click here to focus
+                </div>
+            </div>
+
+            <button class="restart-btn" id="restart-btn" title="Restart Test">
+                <i class="fa-solid fa-rotate-right"></i>
+            </button>
+        </main>
+
+        <!-- Results Screen -->
+        <main id="results-container">
+            <div class="results-stats">
+                <div class="stat-box">
+                    <div class="stat-title">wpm</div>
+                    <div class="stat-value" id="result-wpm">0</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-title">acc</div>
+                    <div class="stat-value" id="result-acc">0%</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-title">time</div>
+                    <div class="stat-value" id="result-time">0s</div>
+                </div>
+            </div>
+
+            <div class="action-buttons">
+                <button class="action-btn" id="next-btn" title="Next Text (same type)">
+                    <i class="fa-solid fa-forward"></i> Next
+                </button>
+                <button class="action-btn" id="repeat-btn" title="Repeat Test">
+                    <i class="fa-solid fa-rotate-right"></i>
+                </button>
+                <a href="#/" class="action-btn primary" id="menu-btn" style="text-decoration: none;">
+                    <i class="fa-solid fa-bars"></i> Menu
+                </a>
+            </div>
+        </main>
+
+        <footer>
+            <a href="#"><i class="fa-solid fa-envelope"></i> contact</a>
+            &nbsp; | &nbsp;
+            <a href="#"><i class="fa-solid fa-shield-halved"></i> privacy</a>
+            &nbsp; | &nbsp;
+            <span>theme: dark</span>
+        </footer>
+    </div>
+
+    <script src="words.js?v=4"></script>
+    <script src="app.js?v=4"></script>
+</body>
+</html>

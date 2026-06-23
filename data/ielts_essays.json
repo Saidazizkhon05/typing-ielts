@@ -1,0 +1,202 @@
+{
+  "essays": [
+    {
+      "id": 1,
+      "topic": "Should employee pay be based on production and sales rates?",
+      "type": "opinion",
+      "paragraphs": {
+        "introduction": "One of the responsibilities of a manager is to motivate their employees to increase their performance. However, I strongly disagree that basing their salaries on their rates of production and sales would be the most effective method.",
+        "body1": "The performance in many cases cannot simply be quantified in terms of sales or production. A teacher's job, for example, is to teach classes, assess homework, and provide students with feedback, none of which involves producing or selling any goods. In this case, it is the performance of her students and their levels of satisfaction with aspects of her performance such as rapport or punctuality that decide how successful he has been.",
+        "body2": "Furthermore, the performance of many workers is greatly affected by external factors beyond their control. The state of the economy, unexpected political developments, and extreme weather conditions can all have significant impacts on how much a worker can sell or produce. A hurricane, for example, can easily devastate a farm and all its produce without its workers being responsible for any of the damages or the ensuing drop in production rates. Basing wages on sales or production rates would actually demotivate workers in such cases. Some may argue that it is difficult to assess anything other than a worker's output, making any other form of appraisal less effective. However, managers these days have tools such as questionnaires and Customer Relations Management platforms that allow them to form a relatively clear picture of a worker's overall performance.",
+        "conclusion": "In conclusion, I think deciding how much an employee should earn based solely on their sales or production figures would be both impossible and unfair in most, if not all, cases. Instead, employers should look at a more diverse set of performance indicators, including customer satisfaction and punctuality."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "Should richer nations help poorer nations in health, education and trade?",
+      "type": "opinion",
+      "paragraphs": {
+        "introduction": "Many underdeveloped countries nowadays face serious problems trying to provide their citizens with decent education and health facilities, as well as in other areas like trade. However, I disagree that developed nations ought to support these countries, and think they should try to stand on their own feet instead.",
+        "body1": "It is usually possible for poor countries to raise enough money to overcome their predicaments since the source of their shortcomings is usually deep corruption and domestic mismanagement, which have resulted in their funds being embezzled by dishonest officials and their affairs in areas like education, health and trade run by unqualified authorities. If they are in need of support in such areas, they should first make an effort to eradicate the abovementioned issues before asking for aid from the outside world.",
+        "body2": "Furthermore, the money that the governments of developed countries have belongs to their citizens because it originates from their taxes, customs duties, and national resources. It should therefore be spent on providing better facilities like health centres and universities, and improving business environments for their own citizens, not for people living elsewhere in the world. Some may argue that the decline in living conditions in developing countries could result in the migration of their citizens to developed countries in search of a better life, which involves serious financial and cultural concerns for rich nations. However, public investment in improving border control and defense structures can render these concerns insignificant.",
+        "conclusion": "In conclusion, I think developed countries should not aid poor countries, as their funds should be invested in the betterment of life for their own citizens. Undeveloped nations can often overcome their shortcomings in commerce, health and education on their own through eliminating corrupt officials and improving their management practices."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "Is it positive or negative that countries are becoming more similar through global products?",
+      "type": "opinion",
+      "paragraphs": {
+        "introduction": "I think it is beneficial that goods like food, cars, furniture and clothes that are produced in a certain part of the world are now available almost everywhere, which means the similarities between various countries are growing.",
+        "body1": "People in different regions now have access to products they could not use before. There are numerous goods that are produced only in certain parts of the world, which means that people living in other places could not normally take advantage of them in the past. For example, bananas and pineapples are grown in tropical countries and so, did not use to be available to consumers in colder countries like Russia and Canada. Nevertheless, most people in such countries are now able to buy and eat these beneficial fruits.",
+        "body2": "Furthermore, people can now migrate to different countries with less fear of becoming homesick since the products they are used to are now available in shops wherever they go. For instance, Iranian immigrants could not cook their national dish, Ghorme sabzi, in other parts of the globe because the specific vegetables required were not grown there. However, as they can access all these ingredients in shops and supermarkets around the world today, they do not miss a significant part of their cultural heritage anymore, allowing them to work and live more productively. Some may argue that the global spread of similar goods and the growing similarity between countries can reduce people's motivation to travel to other parts of the world, decreasing tourism and the revenue it brings to countries. But I think people will still travel to see and experience the natural features of other countries like forests, mountains and wildlife.",
+        "conclusion": "In conclusion, I believe the growing similarity between countries around the world is a desirable development. People can now take advantage of beneficial goods from other countries, and immigrants can be less stressed and more productive."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "Should industries replace experienced older workers with younger ones?",
+      "type": "opinion",
+      "paragraphs": {
+        "introduction": "Nowadays, almost every company tends to retire its employees once they have reached a certain age. I completely agree with this practice and believe elderly staff need to be replaced with younger workers despite the difference in their work experience.",
+        "body1": "First and foremost, a large majority of workers lose their strength as they become older. This is mainly because the human body has limits, and working for a long time, say, 30 or 35 years, can affect it negatively. For example, young industrial workers tend to work for five to six hours before they take breaks while older ones usually need to rest every one or two hours. This means that productivity levels would certainly decline.",
+        "body2": "Furthermore, new employment opportunities for young people are very limited. Most companies do not offer more than a few new jobs every year and try not to increase their staff members dramatically to keep expenses low. Consequently, they should definitely lay off some of the older personnel to make room for younger ones, especially those around 20 to 30 years old who are about to form families and support them. Some may argue that removing older workers from the workplace will deprive younger workers of what they can teach them in terms of experience and skills. However, I think the old workers' experience is usually out of date and is of little use to new recruits who need to learn how to employ modern technologies such as computers and lasers.",
+        "conclusion": "In conclusion, I think companies need to force their elderly workforce to retire and employ younger workers to replace them to improve productivity, have up-to-date workers and provide jobs for young people."
+      }
+    },
+    {
+      "id": 5,
+      "topic": "Is it important to preserve languages that are dying out?",
+      "type": "discussion",
+      "paragraphs": {
+        "introduction": "As the global trend toward globalism and the use of a lingua franca grows, local languages continue to perish. I think although a smaller number of languages can make life easier, it is important to try and preserve all languages.",
+        "body1": "On the one hand, when fewer languages are in use, communication tends to become easier in most cases. It will be really convenient if one can talk with others from various parts of the world without the need for a live translator or special software for assistance. This means that different nations around the globe are likely to be able to cooperate more closely if fewer languages are in use. For instance, a conference at the United Nations will be more convenient and productive for politicians if they all can communicate using a limited set of languages, or perhaps even one, instead of having to wait for translations to come through. Consequently, better results are likely to be achieved more quickly, and many issues could be resolved as a result of better mutual understanding.",
+        "body2": "On the other hand, every language represents the culture within which it has developed. It reflects the lifestyle and traditions of the people who use it to communicate within the context of their daily lives, and it is the foundation of their folklore and literature. Although some might argue that these could be translated into more common languages like English or Chinese, it is quite unlikely that the exact meaning of each phrase, expression, idiom, proverb or poem can be translated. This means that once a nations' language has died out, a significant portion of its culture and history is lost with it, leaving them with a weaker cultural and national identity.",
+        "conclusion": "In conclusion, I believe even though the fall in the number of languages in use allows people to communicate more conveniently, making their lives less complicated, it is still important for every language to be saved from extinction so that the culture, history and literature of all nations are protected."
+      }
+    },
+    {
+      "id": 6,
+      "topic": "Should governments spend less on arts and more on education?",
+      "type": "opinion",
+      "paragraphs": {
+        "introduction": "Many governments today allocate significant portions of their national budgets to the development and protection of arts. I think this is necessary and governments should not curb art budgets, although it is vital that more money is spent on education, as well.",
+        "body1": "Decreasing public financial support for art would definitely leave normal people with little or no access to original fine art pieces. High art is immensely sought and supported by the private sector in most parts of the world, with art galleries and agents investing heavily in famous professional artists so that they can sell their works to wealthy private collectors. Therefore, if the government stops investing in this sector, there will practically be no paintings, sculptures or other forms of art available for ordinary citizens to enjoy, which can not only diminish their pursuit of beauty and perfection, but also leave them more depressed and passive, even vulgar.",
+        "body2": "However, education plays a crucial role in the development of a country. More educated and skillful citizens can contribute greatly to a country's progress since its industries, healthcare system and defense capabilities rely mostly on its progress in different fields of science and technology, which in turn requires skillful teachers, advanced computers and better-equipped laboratories. This means that the more money is spent on educational facilities and equipment and the more budget is allocated to supporting students and educators, the more likely it is for a country to develop.",
+        "conclusion": "In conclusion, I think governments ought to maintain their financial support for arts while increasing education budgets, ensuring both continued access to fine arts for their citizens and sustained development for their countries."
+      }
+    },
+    {
+      "id": 7,
+      "topic": "Should doctors and teachers be paid more than sports and entertainment personalities?",
+      "type": "opinion",
+      "paragraphs": {
+        "introduction": "Salary is an issue that many people have strong opinions about, and the pay gap between top entertainers and sports stars on the one hand, and professionals in vital service sectors such as medicine and education on the other, has been quite controversial for some time now. However, I personally think that, except in certain cases, the latter group do not necessarily deserve higher pays than the former.",
+        "body1": "One reason is that the cash flow of service sectors is significantly lower than that of sports and entertainment industries. People willingly spend trillions of dollars every year buying tickets to sports matches, concerts and movies, while the revenue in service sectors like education or medicine originates mainly from households in need of their services. And even then, those services have to be provided at a discount to guarantee proper access for all citizens regardless of their financial status. This means that the funds available to service providers like doctors or teachers is a fraction of what is available to sports stars, actors and singers.",
+        "body2": "Additionally, unlike in sports and entertainment where people with certain talents are chosen or may accidentally be discovered and hurled into stardom, people in service professions tend to make informed choices regarding their careers. In other words, one usually chooses to become a teacher or doctor, knowing how much one can hope to earn and what the chances of living a life of luxury are for someone in their business. That being said, there are certain professionals that truly deserve to receive salaries higher than, or at least as high as, those paid to celebrity players or entertainers. This includes doctors who make breakthrough medical discoveries, invent novel methods to cure diseases or make other substantial contributions to medical sciences. Likewise, contributions such as developing more effective teaching approaches should warrant celebrity-level wages for educators who make them.",
+        "conclusion": "In conclusion, I do not believe that doctors or educators should receive higher wages than celebrity singers, sports players or actors unless they have made significant contributions to their fields."
+      }
+    },
+    {
+      "id": 8,
+      "topic": "Should individuals or governments be responsible for promoting a healthy lifestyle?",
+      "type": "discussion",
+      "paragraphs": {
+        "introduction": "There is little doubt about how vital it is for people to adopt a healthy lifestyle, but there are conflicting views as to who should be responsible for its promotion and enforcement. Although some believe that the government should shoulder this responsibility, others, myself included, think it should be every individual's duty.",
+        "body1": "People themselves benefit primarily in their personal lives from eating healthily and taking more exercise. It allows them to remain healthy, avoid different illnesses like heart disease and arthritis, and enjoy increased longevity. Living healthily also allows them to be more active in the society and at work because they are more likely to feel energised and refreshed throughout the day. Consequently, they can focus more on their social and professional efforts, which could significantly increase their social and work status. Therefore, it seems logical to hold every individual responsible for adopting a healthy lifestyle.",
+        "body2": "Some argue that governments should enforce a healthy lifestyle because they have the means to raise awareness through the educational system and introduce relevant regulations obliging their citizens to make the necessary changes in their way of life. However, most adults tend to change and adjust their lifestyle according to their experiences and desires after leaving school, forgetting most, if not all, of what they have been taught. Furthermore, it would be unwise for authorities to meddle in people's private lives and have them conform to any regulation that affect their personal lives.",
+        "conclusion": "In conclusion, I believe that individuals ought to bear the responsibility of following and promoting a healthy way of life since they can enjoy the benefits in their personal, social and work lives."
+      }
+    },
+    {
+      "id": 9,
+      "topic": "Should universities accept equal numbers of male and female students in every subject?",
+      "type": "discussion",
+      "paragraphs": {
+        "introduction": "The issue of keeping a balance between the numbers of female and male students in universities has been discussed by many, and although some say such a policy should be implemented in all subjects, others, including myself, believe that it is not beneficial.",
+        "body1": "Admitting a similar number of students from each gender in some courses will probably render many of them unable to find a job later. For example, most areas of agriculture are too burdensome for almost any woman in that they involve heavy physical activities and their working environment is affected significantly by the elements. Therefore, it is unlikely for a woman to be able to find a farming job once she has graduated in, say, agricultural engineering. Besides, such a policy would definitely bar many talented and enthusiastic applicants from studying their favourite courses merely because there may not be enough students from the opposite sex to join the course.",
+        "body2": "Some people think that accepting similar numbers of male and female students in all subjects promotes gender equality, as well as breaking the social taboos attached to studying courses that are usually prescribed to a specific gender. However, forcing students to study something they may not like, or stopping others from studying what they like in order to keep a balance does not seem fair at all. Social taboos are not broken in the short term either, and it is more probable that the students who study in fields that are taboo for their gender are rejected and sidelined in the process.",
+        "conclusion": "In conclusion, I personally disagree with accepting an equal number of boys and girls in any subject at university since it can complicate finding jobs later and promote gender bias, stopping enthusiastic applicants from entering the courses they like because of their sex."
+      }
+    },
+    {
+      "id": 10,
+      "topic": "Should secondary school students study international news as a subject?",
+      "type": "discussion",
+      "paragraphs": {
+        "introduction": "Today, learning about the news from different parts of the world is essential to many people. It has been suggested that the review of such news should become a high school subject although some think this would waste school time. I think this is a great idea provided that inappropriate news are filtered out and there is enough time for other important subjects.",
+        "body1": "On the one hand, reviewing global news can help high school students improve their general knowledge in areas like geography and cultures. This is because the news comes from around the world and often present significant details about different regions and their features, which means students would possibly gain a better understanding of the world. It also seems that studying the news can develop the students' ability to analyse sophisticated situations because when they follow a story, say, about a political rift between two countries, they can observe how it develops or escalates, how the parties involved act and what its consequences are.",
+        "body2": "On the other hand, there are some issues with studying global news in high schools. The violence portrayed in many of today's news stories could affect students' conduct. For instance, almost every newspaper and news website these days is filled with images and stories of the ISIS executions in Iraq and Syria, which are likely to make youngsters feel insecure or make unreasonable judgements about any Arab friends they might have. Furthermore, reading and analysing the news would probably be a time-consuming activity, leaving insufficient time for more important subjects and activities like sciences, math or physical education.",
+        "conclusion": "In conclusion, I believe it is wise for secondary school students to study global news at school as it may develop their general knowledge and ability to understand the world. However, they should avoid violent news stories, and there should be enough time left for more important subjects."
+      }
+    },
+    {
+      "id": 11,
+      "topic": "Do you support or oppose modern developments in agriculture such as factory farming?",
+      "type": "discussion",
+      "paragraphs": {
+        "introduction": "Recently, there have been extensive developments and improvements in various aspects of agriculture, including genetically modifying plants to create new types, as well as factory farming. While some oppose these advances, others, including me, find them beneficial and necessary.",
+        "body1": "Modern agricultural developments can help provide more food for the growing populations, especially in the developing world. Many new types of plants that are developed through genetic engineering, like some species of wheat or certain fruit trees, can produce heavier fruits or more seeds. Furthermore, novel methods like factory farming would certainly render many demanding agricultural tasks like milking cows and feeding various farm animals easier since they rely on automatic machines for performing such tasks.",
+        "body2": "Some people argue that some modern farming techniques such as modifying the genetic structure of plants can be unsafe, and many animal rights activists find factory farming cruel to animals. However, it should be noted that extensive laboratory tests are conducted on any genetically modified organism before governments allow it to be produced on a commercial scale. Breeding animals only to be slaughtered might sound cruel, but the fate that would await them if they lived in their natural habitats is almost as grim. There are various wild beasts that feed on the domestic animals bred by humans, and the way they tear the flesh of their prey apart is far more violent than the painless death inflicted by automatic slaughtering systems.",
+        "conclusion": "In conclusion, I think modern farming techniques and agricultural methods are necessary to meet the urgent need for more food worldwide, as well as being vital to the efficiency and practicality of performing farming tasks."
+      }
+    },
+    {
+      "id": 12,
+      "topic": "Are strict punishments or other measures more effective in reducing traffic accidents?",
+      "type": "discussion",
+      "paragraphs": {
+        "introduction": "Road accidents take the lives of many drivers and pedestrians every year. Some argue that the best way to reduce them is to have severe penalties for offending traffic regulations, while others think other solutions may work better. I think, although such punishments are helpful, other measures should be taken alongside them.",
+        "body1": "On the one hand, careless drivers who ignore traffic laws play a major role in many road accidents. For example, some use their mobile phones while driving and do not focus on the road, meaning they would definitely not be able to control their cars in time to avoid accidents. If such drivers know they risk being imprisoned or heavily fined, they will probably be motivated to observe driving regulations more closely. Furthermore, penalising driving offences is the quickest solution since it can be applied immediately and drivers will see the consequences of their faults right away.",
+        "body2": "On the other hand, there are various other means of decreasing the number of traffic accidents. Driving license candidates could be required to sit courses aimed at educating them on the virtues of heeding the law while on the road. This would allow them to realise how driving carefully could benefit both themselves and the people around them. Moreover, new cars could be built in such a way that they restrict the drivers' ability to commit traffic offences like illegal speeding or turns. For instance, the car's computer could automatically decrease its maximum speed in residential areas or near intersections.",
+        "conclusion": "In conclusion, I think any idea that could increase road safety is worth trying, so while driving offences should be heavily punished, solutions like safety classes for new drivers and technologies that prevent offences are also necessary."
+      }
+    },
+    {
+      "id": 13,
+      "topic": "Are there more advantages or disadvantages of living in a house compared with an apartment?",
+      "type": "discussion",
+      "paragraphs": {
+        "introduction": "The growth in urban populations means more and more people tend to live in apartments, but there are many who still prefer to live in houses. I think when compared with apartments, there are more benefits than drawbacks to living in houses.",
+        "body1": "Houses usually have yards where children can play and small gardens can be maintained. This makes them very suitable for larger families. In addition, people living in houses often enjoy better privacy and less noise because there are far fewer neighbours. Nevertheless, the costs of maintaining a house, from utility bills to air conditioning to security, almost always exceed those of living in an apartment. This is why even fans of living in houses tend to have second thoughts when deciding on where to live.",
+        "body2": "Apartments, on the other hand, are usually safer as most apartment buildings have guards and CCTV security systems, besides the fact that the many neighbours keep an eye on each other's residences. Nevertheless, most apartments have few or no south-facing windows, resulting in less light penetrating the interior and rendering their residents prone to depression and vitamin D deficiencies. It is also difficult to customise an apartment to the needs of a family since any structural changes can potentially affect the whole building.",
+        "conclusion": "I personally value privacy and silence above all other factors when choosing accommodation. Therefore, I believe a house is a much better place to live, especially for families with children and the elderly who need more peace and quiet. I also believe most citizens nowadays, especially the middle class, earn enough to be able to afford the costs of life in houses."
+      }
+    },
+    {
+      "id": 14,
+      "topic": "What are the advantages and disadvantages of children having a large number of toys?",
+      "type": "discussion",
+      "paragraphs": {
+        "introduction": "Nowadays, a lot of toys, ranging from simple dolls to complicated electronic gadgets like video games, are provided for some children by their parents. I think this is not a problem provided children are sufficiently active and care for their toys.",
+        "body1": "One of the important advantages of children having lots of toys is that there are different games for them to play. They can choose one of their toys according to their mood and taste, and are less likely to become bored. Besides, they would certainly be able to learn a wider variety of skills like problem solving or organization. Different toys can teach them different things, which means that the more toys they have, the more they are likely to learn.",
+        "body2": "However, having a lot of different toys could possibly lead to children becoming overweight since many modern toys like video games and LEGOs, which are very common these days, are usually played indoors. Therefore, they would definitely reduce children's physical activity, leading them to gain extra weight. Furthermore, when kids have too many toys, it is likely that they will take less care of them. In other words, they will probably not learn to value them if there is always a replacement ready to play with. Consequently, they would not learn to appreciate their belongings.",
+        "conclusion": "In conclusion, I believe that children benefit from an abundance of toys which offer them variety, as well as teaching them more varied skills. However, it is important that they keep an active lifestyle and are taught to value every toy."
+      }
+    },
+    {
+      "id": 15,
+      "topic": "What are the causes of declining health and fitness, and what solutions exist?",
+      "type": "issue",
+      "paragraphs": {
+        "introduction": "Nowadays, the levels of healthiness and fitness are declining in some societies due to the increase in the average weight of people. I think this is mainly because of their sedentary lifestyles and the popularity of fast food, but there are some solutions.",
+        "body1": "A reason why people have generally grown overweight and unhealthy is that almost everyone either drives or takes public transport to work or school. As a result, there has been a serious decline in most people's levels of physical activity, leading them to burn fewer calories and gain weight. Another reason could be the overconsumption of fast food. A cheeseburger has many high-calorie ingredients such as Mozzarella cheese, sauce and bread. This means that eating many cheeseburgers would definitely have negative effects on blood fat levels and increase one's weight.",
+        "body2": "A possible solution to improve public health and fitness is for people to increase their daily physical activity, for example through walking to work if they live close to their workplaces, jogging in the morning or evening and taking regular exercise at the gym. In addition, what governments can do is to launch publicity campaigns against obesity so that people are informed of the dangers of a high-calorie diet. For example, posters could be designed that illustrate how back pain results from obesity and mounted in public areas and vehicles. This would definitely encourage many to control their calorie intake.",
+        "conclusion": "In conclusion, the decline in health and fitness and increase in the weight of many people in various countries owe mainly to a lack of physical activity and the high consumption of fast food. However, these problems can be dealt with if people increase their daily physical activity and are informed of the dangers of eating too much."
+      }
+    },
+    {
+      "id": 16,
+      "topic": "Why is rubbish production increasing and what can governments do about it?",
+      "type": "issue",
+      "paragraphs": {
+        "introduction": "Today, many cities around the world face an increasing amount of garbage produced by citizens. I think the main reasons for this are consumerism and overpackaged goods, and it certainly needs to be dealt with.",
+        "body1": "One reason why the amount of rubbish produced is rising is the consumerist lifestyle of many people today which has led them to buy and consume more products such as food, clothes and home appliances. As a result, they often have to throw away their old belongings to make room for the new ones. Furthermore, most products today have packages and boxes that need to be thrown away. For instance, most dishes are wrapped in nylon covers, bubble wraps and cardboard boxes, which together can fill a large rubbish bag.",
+        "body2": "To decrease the amount of garbage, governments can legislate laws to limit the garbage produced by households to a certain level, say, a kilogram every day. As a result, people would definitely try to buy only the things they need to avoid throwing away too much. Another possible solution would be to encourage producers to improve their packaging techniques and use less packaging material like paper and plastic. For instance, if governments ask dish producers to use printed and colourful bubble wraps, they can act as protective covers as well as eye-catching packages, which means that buyers will only have to throw away one wrapper.",
+        "conclusion": "In conclusion, the reasons behind the rise in waste production include consumerism and product packages, and possible solutions are laws to restrict household garbage as well as encouraging industries to use improved packaging."
+      }
+    },
+    {
+      "id": 17,
+      "topic": "Why do people research their family history and is it positive or negative?",
+      "type": "mixed",
+      "paragraphs": {
+        "introduction": "Genealogy is not a new field and people, especially the noble class, have always been keen on knowing more about the history of their families and ancestors. However, it has recently enjoyed more popularity with many ordinary people, especially in the western world, trying to fill in the gaps in their family trees. I think this is mainly because they want to have fun or learn about how their families have changed through time, but I personally disapprove of this practice.",
+        "body1": "One reason why many people are curious about their family history these days is that it is often fun to trace back one's bloodline and find out if one is related to any famous people. I remember a recent story about how a common supermarket clerk in Nevada was discovered to be a descendant of a British king. Many such descendants live completely ordinary lives, to which a discovery like that can bring many thrills. Additionally, it would definitely help people to realise how their families have changed through the years and therefore, learn a thing or two about the causes of failure and prosperity in different generations.",
+        "body2": "However, many individuals who find themselves related to the nobility tend to consider tiny shares of noble blood as birthright to more respect. They, for instance, often demand seats in public transport when there are more deserving people like pregnant women or the elderly aboard. Apart from that, some of them might overgeneralise the role of factors which have contributed to a former generation's condition, be it inherited wealth or even bad luck, to their own and disregard the value of their own ideas, efforts and current status.",
+        "conclusion": "In conclusion, I think the growing trend towards researching family histories owes mainly to people's need for fun, as well as information regarding how their families have developed, but I believe it should be discouraged."
+      }
+    },
+    {
+      "id": 18,
+      "topic": "Should schools teach young people how to be good parents?",
+      "type": "opinion",
+      "paragraphs": {
+        "introduction": "Nowadays, parenting is considered a very important role in almost every society. I think that school students should definitely receive parenting training, and also believe that effective communication and teaching are two of the most important skills a good parent should have.",
+        "body1": "One reason why parenting should be a school subject is that children spend a lot of time in their schools. For instance, in my country, Iran, they usually spend at least seven hours a day studying at school, which means they are likely to have enough time to learn and practice good parenting. Furthermore, they usually listen to and follow the instructions provided by their teachers much more effectively compared to what their parents or other people tell them because they have to pass courses and receive good scores in exams. Therefore, they can learn about good parenting skills from them more effectively.",
+        "body2": "I believe that every good parent should be able to communicate with his or her children so that they can be friends with each other and there are no secrets between them. This would allow parents to guide their children better and protect them from the dangers of society. Besides, parents ought to be able to teach different things such as the difference between good and bad, social skills and scientific knowledge to their children to help them become better people and develop better personalities.",
+        "conclusion": "In conclusion, I agree that students should be taught about the skills and knowledge that lead them to become good parents in future. I also think every good parent ought to be able to communicate well and teach effectively."
+      }
+    }
+  ]
+}
