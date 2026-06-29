@@ -2,18 +2,18 @@
   "reports": [
     {
       "id": 1,
-      "topic": "Household internet access in four countries (2000–2020)",
+      "topic": "Household internet access in four countries (2000-2020)",
       "type": "line_graph",
       "paragraphs": {
-        "introduction": "The line graph illustrates the proportion of households that had internet access in four countries — Germany, Brazil, Japan, and Nigeria — over a twenty-year period from 2000 to 2020.",
+        "introduction": "The line graph illustrates the proportion of households that had internet access in four countries - Germany, Brazil, Japan, and Nigeria - over a twenty-year period from 2000 to 2020.",
         "overview": "Overall, internet penetration rose in all four nations over the period, with Germany and Japan reaching near-universal coverage by 2020. Nigeria, however, recorded by far the lowest levels throughout, with a modest upturn only visible in the final decade.",
-        "body1": "In 2000, Germany and Japan already had relatively high levels of internet access, at around 30% and 25% respectively. Both countries experienced steep and consistent growth over the following two decades, with Germany reaching approximately 93% and Japan 91% by 2020. Brazil began the period at a considerably lower level of roughly 5%, but climbed steadily to around 70% by the end of the period — a fourteenfold increase that represented the most dramatic proportional rise among the four nations.",
-        "body2": "Nigeria showed a markedly different trajectory. Access remained negligible — below 5% — throughout the 2000s, before rising gradually to around 27% by 2020. While this represented a significant improvement in relative terms, Nigeria's coverage remained substantially lower than that of the other three countries at every point in the period, highlighting a persistent digital divide between the African nation and its counterparts in Europe, South America, and East Asia."
+        "body1": "In 2000, Germany and Japan already had relatively high levels of internet access, at around 30% and 25% respectively. Both countries experienced steep and consistent growth over the following two decades, with Germany reaching approximately 93% and Japan 91% by 2020. Brazil began the period at a considerably lower level of roughly 5%, but climbed steadily to around 70% by the end of the period - a fourteenfold increase, representing the most dramatic proportional rise among the four nations.",
+        "body2": "Nigeria showed a markedly different trajectory. Access remained negligible - below 5% - throughout the 2000s, before rising gradually to around 27% by 2020. While this represented a significant improvement in relative terms, Nigeria's coverage remained substantially lower than that of the other three countries at every point in the period, highlighting a persistent digital divide between the African nation and its counterparts in Europe, South America, and East Asia."
       }
     },
     {
       "id": 2,
-      "topic": "UK visits abroad and popular destinations (1979–1999)",
+      "topic": "UK visits abroad and popular destinations (1979-1999)",
       "type": "mixed",
       "paragraphs": {
         "introduction": "The line graph illustrates the number of UK residents going abroad from the UK and overseas residents visiting the UK between 1979 and 1999. The bar chart gives information about how many UK residents travelled to five of the most popular countries in 1999. Units are measured in millions of people.",
@@ -46,7 +46,7 @@
     },
     {
       "id": 5,
-      "topic": "Urban residency in four Asian countries (1970–2040)",
+      "topic": "Urban residency in four Asian countries (1970-2040)",
       "type": "line_graph",
       "paragraphs": {
         "introduction": "The line chart shows how urban residency has changed in four Asian countries from 1970 to 2040.",
@@ -68,7 +68,7 @@
     },
     {
       "id": 7,
-      "topic": "Fruit and vegetable consumption in the UK (2001–2008)",
+      "topic": "Fruit and vegetable consumption in the UK (2001-2008)",
       "type": "bar_chart",
       "paragraphs": {
         "introduction": "The bar chart illustrates the proportion of women, men and children consuming five servings of fruit and vegetables each day in 8 years from 2001 to 2008 in the UK.",
@@ -130,6 +130,281 @@
         "overview": "The process includes four stages: collecting information, analyzing data, preparing the forecast, and broadcasting it.",
         "body1": "Weather data is gathered using satellites, radar, or buoys. Satellite data appears as images, while radar information is shown on screens or synoptic charts. Buoys also transmit data, displayed as synoptic charts.",
         "body2": "After collection, the forecast is created using computers and shared through TV, radio, or automated telephone systems."
+      }
+    },
+    {
+      "id": 13,
+      "topic": "Underground railway systems in six cities",
+      "type": "table",
+      "paragraphs": {
+        "introduction": "The table presents data on the underground railway systems of six cities worldwide, detailing the year each network was opened, the total length of routes in kilometres, and the number of stations in operation.",
+        "overview": "Overall, the older systems tend to have more extensive networks, with London and Paris standing out as the largest in terms of route length and station count respectively. In contrast, the more recently established systems in Kyoto and Los Angeles are considerably more modest in scale.",
+        "body1": "London boasts the oldest underground network, having opened in 1863, and also operates the longest route at 394 kilometres. Despite its 270 stations, it is surpassed in station count by the Paris metro, which was inaugurated in 1900 and serves as many as 297 stations across a 199-kilometre network. Tokyo's system, which began operating in 1927, is the third oldest and covers 155 kilometres with 158 stations, reflecting its position as a major but comparatively compact urban transport network.",
+        "body2": "The three more recently opened systems are considerably smaller in scope. Washington DC's metro, which opened in 1976, spans 126 kilometres and includes 86 stations, while Kyoto's network, established in 1981, comprises just 11 kilometres of route and 15 stations, making it the second smallest in the dataset. Los Angeles, the most recently launched network having opened in 2001, covers 28 kilometres and serves 16 stations. Overall, a clear pattern emerges whereby the age of a network correlates broadly with its size, with the oldest systems being by far the most extensive."
+      }
+    },
+    {
+      "id": 14,
+      "topic": "Average CO2 emissions per person in four European countries (1967-2007)",
+      "type": "line_graph",
+      "paragraphs": {
+        "introduction": "The line graph illustrates changes in average carbon dioxide emissions per person, measured in tonnes, across four European countries - the United Kingdom, Sweden, Italy, and Portugal - over a forty-year period from 1967 to 2007.",
+        "overview": "Overall, the United Kingdom recorded the highest emissions at the start of the period, though both it and Sweden followed a general downward trend over the decades. Italy and Portugal, by contrast, experienced significant increases, resulting in a notable convergence of figures across all four nations by 2007.",
+        "body1": "In 1967, the UK had by far the highest per capita CO2 emissions at approximately 11 tonnes, followed by Sweden at around 9 tonnes. Both countries experienced a general decline over the four decades, with the UK falling to roughly 9 tonnes by 2007 and Sweden dropping more steeply to approximately 6 tonnes. The decline in Sweden was particularly pronounced, suggesting significant investment in cleaner energy sources and energy efficiency measures over the period.",
+        "body2": "By contrast, Italy and Portugal began the period with considerably lower emissions, at approximately 4 tonnes and 1 tonne respectively, and both saw their figures rise substantially. Italy's emissions climbed to around 8 tonnes by 2007, approximately doubling over the period, while Portugal's rose to roughly 6 tonnes, representing a sixfold increase from its 1967 baseline. As a result, by 2007, all four countries had converged considerably, recording between 6 and 9 tonnes per person, in stark contrast to the wide disparity that had characterised the beginning of the period."
+      }
+    },
+    {
+      "id": 15,
+      "topic": "Global water consumption by sector (1900-2000)",
+      "type": "line_graph",
+      "paragraphs": {
+        "introduction": "The line graph illustrates changes in global water consumption across three sectors - agriculture, industry, and domestic use - from 1900 to 2000, with figures measured in cubic kilometres.",
+        "overview": "Overall, water consumption increased dramatically across all three sectors over the century, with agriculture consistently accounting for the largest share by a considerable margin. Both industry and domestic use also grew substantially, though neither came close to matching agricultural demand at any point during the period.",
+        "body1": "Agricultural water consumption was the dominant force throughout the entire century, rising from approximately 500 cubic kilometres in 1900 to around 3,000 cubic kilometres by 2000, a sixfold increase. This growth was relatively steady during the first half of the century before accelerating markedly from the 1950s onwards, likely driven by the rapid expansion of irrigated farming to support a growing global population. By the close of the period, agriculture accounted for the vast majority of total water usage worldwide.",
+        "body2": "Industrial water consumption began the century at a very low level of around 30 cubic kilometres but grew rapidly, particularly after 1950, reaching approximately 800 cubic kilometres by 2000. Domestic consumption followed a broadly similar upward trajectory at a lower absolute level, rising from roughly 20 cubic kilometres in 1900 to around 300 cubic kilometres by the end of the period. While both sectors recorded significant growth, their combined usage still represented only a fraction of the water consumed by agriculture, underscoring the overwhelming dominance of the agricultural sector in global water demand throughout the century."
+      }
+    },
+    {
+      "id": 16,
+      "topic": "Glass bottle manufacture and recycling processes",
+      "type": "process",
+      "paragraphs": {
+        "introduction": "The diagrams illustrate two related processes: the manufacture of new glass bottles and jars from raw materials, and the recycling of used glass items back into new containers.",
+        "overview": "Overall, both processes share the use of a high-temperature furnace as a central stage. The manufacturing process begins with three distinct raw materials and involves more steps, while the recycling process is shorter and re-enters the production chain at the furnace stage after the collection and preparation of used glass.",
+        "body1": "The manufacturing process begins with three raw materials, namely sand, soda ash, and limestone, which are combined in a mixer to produce the glass compound. This mixture is then fed into a furnace where it is melted at extremely high temperatures. The molten glass is subsequently poured into moulds to form the desired shape of bottles or jars. The newly formed containers are then passed through an annealing oven, which cools them gradually and strengthens the glass, before emerging as finished products ready for use.",
+        "body2": "The recycling process begins with the collection of used glass items, which are sorted according to colour to ensure the quality of the recycled material. Once sorted, the glass is crushed into small fragments known as cullet. This cullet is fed into a furnace, the same type used in primary manufacturing, where it is melted down. The molten recycled glass is then re-moulded into new bottles or jars, following the same final steps as the original process. This closed-loop system enables glass to be recycled repeatedly without significant loss of quality or material."
+      }
+    },
+    {
+      "id": 17,
+      "topic": "Housing tenure types in England and Wales (1918-2011)",
+      "type": "bar_chart",
+      "paragraphs": {
+        "introduction": "The bar chart illustrates changes in the proportions of three housing tenure types - private renting, owner-occupation, and social renting - in England and Wales between 1918 and 2011.",
+        "overview": "Overall, the most striking trend is the dramatic decline in private renting, which was progressively replaced by the rise of owner-occupation as the dominant tenure type. Social renting emerged as a significant category in the mid-twentieth century before declining in later decades.",
+        "body1": "In 1918, private renting was overwhelmingly the most common form of housing tenure, accounting for approximately 77% of households, while owner-occupation represented the remaining 23% and social renting was virtually non-existent. Over the following decades, this pattern reversed dramatically. By 2011, private renting had fallen sharply to just 18% of households, while owner-occupation had grown to 64%, establishing itself as the clear majority tenure type across England and Wales.",
+        "body2": "Social renting emerged as a significant third category during the twentieth century, rising from near zero in 1918 to reach a peak of approximately 31% around 1971, reflecting large-scale public housing construction in the post-war era. From the 1980s onwards, however, social renting declined steadily, falling back to around 18% by 2011, a level comparable to that of private renting in the same year. The overall picture reveals a fundamental transformation in housing from a predominantly rented market to one firmly dominated by owner-occupation."
+      }
+    },
+    {
+      "id": 18,
+      "topic": "Average hours spent on leisure activities per day by men and women in the UK",
+      "type": "bar_chart",
+      "paragraphs": {
+        "introduction": "The bar chart compares the average number of hours spent per day by men and women in the United Kingdom on six different leisure activities: watching television, socialising, participating in sport, shopping, reading, and arts and crafts.",
+        "overview": "Overall, men devoted more time than women to the majority of leisure activities, particularly watching television and taking part in sport. Women, however, spent more hours on shopping, reading, and arts and crafts, suggesting some degree of gender differentiation in leisure preferences.",
+        "body1": "Watching television was the most time-consuming leisure activity for both genders, with men averaging 2.8 hours per day and women 2.5 hours. Socialising was the second most common activity for both groups, at 1.7 hours for men and 1.4 hours for women. The most pronounced gender gap was observed in sport, where men averaged 1.5 hours per day compared to just 0.8 hours for women, a difference of 0.7 hours suggesting that men were considerably more active in physical leisure pursuits.",
+        "body2": "In contrast, women spent marginally more time shopping than men, at 1.1 hours versus 0.9 hours. The gap in arts and crafts was more notable, with women averaging 0.5 hours per day compared to only 0.2 hours for men. Reading was the activity with the smallest difference between genders, with women spending 0.5 hours and men 0.4 hours daily. Overall, while men dominated the more physically active and screen-based categories, women recorded higher figures in several creative pursuits, though the differences between the genders were generally modest across most activities."
+      }
+    },
+    {
+      "id": 19,
+      "topic": "Percentage of UK population using the internet by age group (1996-2016)",
+      "type": "line_graph",
+      "paragraphs": {
+        "introduction": "The line graph shows the proportion of people in four age groups in the United Kingdom who used the internet, expressed as a percentage, over a twenty-year period from 1996 to 2016.",
+        "overview": "Overall, internet usage increased substantially across all four age groups throughout the period, with younger users consistently recording higher adoption rates than older ones. By 2016, usage had reached near-universal levels among the youngest group, while older cohorts, though growing significantly, still lagged behind.",
+        "body1": "In 1996, internet usage was negligible across all four age groups, with figures approaching zero percent for each. The 16 to 24 age group experienced the most rapid and consistent growth, reaching approximately 96% by 2016. Those aged 25 to 44 followed a closely similar trajectory, achieving around 92% internet adoption by the end of the period. Both younger groups saw particularly steep growth between the late 1990s and mid-2000s, before levelling off as adoption approached saturation.",
+        "body2": "The two older age groups showed more moderate but still substantial growth over the same period. Those aged 45 to 54 rose from near zero to approximately 80% by 2016, while the 55 to 64 age group reached around 66%, the lowest figure among the four cohorts. Notably, both older groups displayed accelerating growth from approximately 2006 onwards, suggesting that internet adoption among older generations gained significant momentum in the second half of the period. Despite their lower final figures, the overall trend demonstrates that internet use became widespread across all age segments over the twenty years."
+      }
+    },
+    {
+      "id": 20,
+      "topic": "Number of people migrating into and out of the UK (1999-2008)",
+      "type": "line_graph",
+      "paragraphs": {
+        "introduction": "The line graph illustrates the annual number of people immigrating to and emigrating from the United Kingdom between 1999 and 2008, with figures given in thousands.",
+        "overview": "Overall, immigration consistently exceeded emigration throughout the entire period, resulting in positive net migration in every year recorded. While both figures rose over time, immigration grew more sharply, particularly around 2004, widening the gap between the two trends.",
+        "body1": "Immigration to the UK stood at approximately 450,000 in 1999 and showed a broadly upward trend over the following decade. A notable spike occurred around 2004, when immigration reached a peak of approximately 590,000, a surge that likely reflected the expansion of the European Union and the consequent increase in freedom of movement for citizens of new member states. After this peak, the figure fell slightly before stabilising at around 575,000 by 2008.",
+        "body2": "Emigration from the UK was considerably lower throughout the period, beginning at around 300,000 in 1999. Unlike immigration, emigration increased more gradually and steadily, rising to approximately 420,000 by 2008. The gap between the two trends widened noticeably after 2004, as immigration surged while emigration continued at a more modest pace. This sustained differential meant the UK received a consistently positive net inflow of people throughout the period, with the difference between arrivals and departures reaching its greatest extent in the mid-2000s."
+      }
+    },
+    {
+      "id": 21,
+      "topic": "Unemployment rates in Australia and New Zealand (1980-2010)",
+      "type": "line_graph",
+      "paragraphs": {
+        "introduction": "The line graph compares unemployment rates in Australia and New Zealand over a thirty-year period from 1980 to 2010, with figures expressed as a percentage of the workforce.",
+        "overview": "Overall, both countries experienced significant fluctuations in unemployment, with peaks occurring in the early 1980s and early 1990s before a sustained decline to relatively low levels during the 2000s. Australia generally recorded higher unemployment peaks than New Zealand, though both followed a broadly similar pattern of volatility followed by recovery.",
+        "body1": "Both countries began the period at around 6% unemployment in 1980. Australia's rate rose sharply to approximately 10% by 1983, before declining somewhat in the mid-1980s. A second and more severe peak followed in the early 1990s, when Australian unemployment reached approximately 11% in 1991. New Zealand followed a broadly similar pattern, peaking at around 7.5% in 1983 and then climbing to approximately 10.5% in 1992, remaining slightly below Australia's figures at both peaks.",
+        "body2": "Following their respective early-1990s peaks, both countries experienced sustained and broadly parallel recoveries. Australian unemployment fell consistently through the 1990s, dropping to around 5% by the early 2000s. New Zealand's rate declined at a comparable pace, reaching approximately 4% in the same period. Both countries maintained relatively low unemployment throughout the 2000s, with rates remaining between 4% and 5%, suggesting that favourable economic conditions and structural labour market reforms contributed to improved employment outcomes across both nations in the latter half of the period."
+      }
+    },
+    {
+      "id": 22,
+      "topic": "Visitors to three London museums (2010-2019)",
+      "type": "line_graph",
+      "paragraphs": {
+        "introduction": "The line graph illustrates the number of visitors, measured in millions, to three major London museums - the British Museum, the Natural History Museum, and the Victoria and Albert Museum - between 2010 and 2019.",
+        "overview": "Overall, all three museums recorded a general increase in visitor numbers over the decade, though each experienced a temporary dip around 2013 to 2014. The British Museum consistently attracted the highest number of visitors, while the Victoria and Albert Museum, despite the smallest absolute footfall, demonstrated the most notable proportional growth.",
+        "body1": "The British Museum was the most visited of the three throughout the entire period, welcoming approximately 5.8 million visitors in 2010. Numbers grew steadily, reaching around 6.4 million by 2019, despite a brief decline in the 2013-2014 period. The Natural History Museum similarly began with 4.9 million visitors in 2010 and ended the decade at around 5.4 million, following a comparable pattern of growth that was briefly interrupted by the same mid-decade dip.",
+        "body2": "The Victoria and Albert Museum attracted the fewest visitors of the three, starting at approximately 2.3 million in 2010. However, it demonstrated the strongest proportional growth over the decade, reaching around 3.0 million by 2019, an increase of approximately 30%. Like the other two institutions, it experienced a temporary fall in visitor numbers around 2013 to 2014 before resuming its upward trajectory. The consistent growth across all three museums over the period suggests a sustained and rising interest in cultural tourism in London throughout the decade."
+      }
+    },
+    {
+      "id": 23,
+      "topic": "Average working hours per week and annual salary in six countries",
+      "type": "table",
+      "paragraphs": {
+        "introduction": "The table provides information on average weekly working hours and annual salaries, expressed in US dollars, for employees in six countries: the United Kingdom, the United States, Germany, Japan, Brazil, and Nigeria.",
+        "overview": "Overall, the data reveals a complex and somewhat counterintuitive relationship between working hours and earnings. Workers in more economically developed nations tend to earn substantially higher salaries despite often working fewer hours, with Nigeria presenting the starkest contrast by combining the longest working week with the lowest annual pay.",
+        "body1": "Among the six countries, Germany recorded the shortest average working week at 35 hours, yet offered the second highest annual salary at $44,000. The United States led in earnings at $52,000 per year with a slightly longer week of 38.5 hours, while the United Kingdom was comparable at 37.5 hours and $42,000 annually. Together, these three countries illustrate a pattern in which moderate working hours are associated with high salaries, reflecting the productivity levels and economic development of these nations.",
+        "body2": "The remaining three countries displayed longer working hours combined with substantially lower salaries. Japan's workers averaged 42 hours per week yet earned only $38,000 annually, a notably lower figure than those of similarly industrialised Western nations. Brazil's workforce averaged 40 hours per week at an annual salary of just $12,000, while Nigeria presented the most extreme case, with workers averaging the longest week at 45 hours but receiving only $6,000 per year, less than one-ninth of the average US salary. These figures demonstrate that working hours alone are a poor indicator of earnings, and that broader economic factors are far more determinative."
+      }
+    },
+    {
+      "id": 24,
+      "topic": "How children in the UK travelled to school (2003 and 2013)",
+      "type": "bar_chart",
+      "paragraphs": {
+        "introduction": "The bar chart compares the proportions of children in the United Kingdom using six different modes of transport to travel to school in 2003 and 2013.",
+        "overview": "Overall, walking remained the most common mode of travel in both years, though its share declined over the decade. The most notable change was the increase in car use, which rose at the direct expense of walking, indicating a broader shift towards less active forms of travel among schoolchildren.",
+        "body1": "Walking was by far the most popular mode of travel in both years, accounting for 56% of school journeys in 2003 before declining to 49% in 2013, a fall of 7 percentage points. Over the same period, the proportion of children travelling by car rose from 22% to 28%, representing the largest increase of any mode. Bus travel grew marginally from 12% to 13%, while bicycle use edged upward from 5% to 6%, suggesting a modest but positive rise in active cycling over the decade.",
+        "body2": "Public transport use remained unchanged at 3% in both years, and the 'other' category experienced a minor decline from 2% to 1%. Overall, the data indicate a clear if modest trend away from active travel, particularly walking, and towards car dependency. This shift carries potential implications for children's physical activity levels and for traffic congestion around schools, as an increasing proportion of families chose to drive their children rather than allow them to walk or cycle independently."
+      }
+    },
+    {
+      "id": 25,
+      "topic": "How freshwater is produced from seawater through desalination",
+      "type": "process",
+      "paragraphs": {
+        "introduction": "The diagram illustrates the process by which freshwater is produced from seawater through desalination, showing the various stages involved from the initial intake of seawater to the final distribution of clean water for consumption.",
+        "overview": "Overall, the process involves multiple treatment stages before seawater becomes suitable for human use, with high-pressure pumps and reverse osmosis membranes forming the technological core of the purification system. The process also generates a by-product in the form of concentrated brine, which is discharged separately.",
+        "body1": "The process begins when seawater is drawn in through an intake system and subsequently passed through a screening and filtration stage designed to remove large particles such as sediment, debris, and marine organisms. The water then undergoes pre-treatment, during which chemicals are added to inhibit scaling and biological growth within the equipment. At this point, the pre-treated water is fed into high-pressure pumps, which generate the substantial force required to drive the water through the next stage.",
+        "body2": "Under high pressure, the seawater is forced through reverse osmosis membranes, which are fine enough to block dissolved salts and other impurities while allowing water molecules to pass through freely. The concentrated salt solution that cannot pass through the membranes is discharged as brine. The purified water that does pass through then undergoes post-treatment, during which minerals are added to improve taste and meet health standards. Finally, the treated freshwater enters the distribution network and is supplied to domestic and commercial users."
+      }
+    },
+    {
+      "id": 26,
+      "topic": "How geothermal energy is used to produce electricity",
+      "type": "process",
+      "paragraphs": {
+        "introduction": "The diagram illustrates how geothermal energy is harnessed to generate electricity, showing the full cyclical process from the injection of cold water into the earth to the production and distribution of electrical power.",
+        "overview": "Overall, the process exploits the natural heat stored in the earth's crust at depth to convert water into steam, which in turn drives a turbine connected to a generator. The water used in the process is recycled in a continuous loop, making geothermal energy a renewable and sustainable source of electricity with no direct emissions during operation.",
+        "body1": "The process begins at the surface, where cold water is pumped down through an injection well to a depth of approximately 3 to 4 kilometres beneath the ground. At this depth, the water comes into contact with superheated rock formations, which transfer geothermal heat to the water, raising its temperature dramatically. The now-heated water or steam then rises back to the surface through a separate production well, propelled upward by the combination of pressure and temperature differentials.",
+        "body2": "Once at the surface, the steam is directed onto a turbine, which it causes to spin at high speed. This mechanical rotation is converted into electrical energy by a generator connected to the turbine. The steam is subsequently cooled back into liquid water by a condenser, preventing waste and enabling the water to be reused. The cooled water is fed back down the injection well, restarting the cycle. The electricity generated is stepped up in voltage by a transformer and carried along power lines to homes, businesses, and other consumers."
+      }
+    },
+    {
+      "id": 27,
+      "topic": "How orange juice is produced on a commercial scale",
+      "type": "process",
+      "paragraphs": {
+        "introduction": "The diagram shows the stages involved in the commercial production of orange juice, from the initial harvesting of fruit through to the packaging and distribution of the finished product.",
+        "overview": "Overall, the production process involves several sequential stages of preparation, extraction, and treatment before the juice reaches the consumer. Key steps include mechanical extraction, filtration, and pasteurisation, which together ensure the juice meets standards of purity and food safety.",
+        "body1": "The process begins with the harvesting of oranges, which are transported to the production facility where they are washed and sorted to remove damaged or substandard fruit. The juice is subsequently extracted mechanically using specialised pressing equipment, and the resulting liquid is passed through a filtration system to remove pulp and seeds, yielding a cleaner product. The filtered juice then undergoes pasteurisation, during which it is heated to approximately 80 degrees Celsius to destroy harmful bacteria, before being rapidly cooled.",
+        "body2": "After pasteurisation, vitamin C may optionally be added to enhance the nutritional profile of the product. The juice is then packaged into cartons or bottles within a sealed environment to prevent contamination and preserve freshness. The packaged product is transferred to refrigerated storage to maintain quality before being dispatched for distribution to supermarkets, retailers, and other outlets. The entire process ensures a consistent and safe product is available to consumers on a large scale."
+      }
+    },
+    {
+      "id": 28,
+      "topic": "How a hydroelectric dam generates electricity",
+      "type": "process",
+      "paragraphs": {
+        "introduction": "The diagram illustrates the process by which a hydroelectric dam generates electricity, showing the path of water from the reservoir behind the dam through the generating system and back into the river downstream.",
+        "overview": "Overall, the process relies on the conversion of the gravitational potential energy of stored water into kinetic energy, which drives turbines connected to generators. The system operates continuously as long as the reservoir contains sufficient water, producing electricity with no direct carbon emissions during generation.",
+        "body1": "The process begins when a river is blocked by a dam, creating a large reservoir of water behind the structure. When electricity generation is required, water is allowed to flow from the reservoir through an intake controlled by adjustable gates, which regulate the volume of flow. The water then passes into a penstock, a large steeply angled pipe that accelerates the flow as the water descends under gravity. At the base of the penstock, the fast-moving water strikes the blades of a turbine, causing it to spin at high speed.",
+        "body2": "The spinning turbine is directly connected to a generator, which converts the mechanical rotation into electrical energy. This electricity passes through a transformer, which increases the voltage to a level suitable for long-distance transmission. The electricity is then carried along power lines to homes, businesses, and industrial users. Meanwhile, the water that has passed through the turbine exits through outlets at the base of the dam, re-entering the river downstream and continuing its natural flow, leaving the overall river system intact below the dam."
+      }
+    },
+    {
+      "id": 29,
+      "topic": "Changes to the village of Midvale between 1970 and the present",
+      "type": "map",
+      "paragraphs": {
+        "introduction": "The maps illustrate how the village of Midvale has changed between 1970 and the present day, showing significant developments in land use, infrastructure, and the overall size of the settlement.",
+        "overview": "Overall, Midvale has undergone substantial transformation, expanding considerably in size through new residential and industrial development. While a small number of original features have been retained, the rural agricultural character of the 1970 village has been largely replaced by urban land uses.",
+        "body1": "In 1970, Midvale was a small, clearly rural settlement comprising a church, a school, extensive farmland, and a single main road. The village had a compact and undeveloped character, with agriculture occupying much of the surrounding land. By the present day, the farmland to the south of the village has been replaced by new housing estates, substantially expanding the residential area. In addition, a supermarket with an accompanying car park has been constructed on what was previously agricultural land, reflecting the growing commercial needs of an enlarged community.",
+        "body2": "The school, which existed in 1970, has been expanded to accommodate the larger population that now resides in the village. A bypass road has been constructed to the east, diverting through-traffic away from the village centre and reducing congestion on the original main road. A new industrial estate has also been established on the northern edge of the settlement, introducing an employment and commercial function that was entirely absent in the original village. The church remains in its original location and is one of the very few features of the 1970 village to have been preserved amid the widespread changes."
+      }
+    },
+    {
+      "id": 30,
+      "topic": "Plans to develop a small uninhabited island as a tourist resort",
+      "type": "map",
+      "paragraphs": {
+        "introduction": "The maps compare a small uninhabited island in its natural state with plans for its development as a tourist resort, showing the proposed changes to land use and infrastructure across the island.",
+        "overview": "Overall, the development plans involve substantial construction across much of the island while preserving a conservation zone around the central freshwater lake. The resort will introduce a wide range of tourist facilities, transforming the island from a pristine natural environment into a managed leisure destination.",
+        "body1": "In its natural state, the island is covered by forest in the interior, has a beach on the southern shore, rocky cliffs along the northern and western edges, and a freshwater lake at its centre. Under the development plans, a hotel will be constructed on the eastern shore to take advantage of the coastal setting and sea views. A restaurant and reception area will be established near the beach to serve as a welcoming point for arriving visitors, and a network of footpaths will be laid through the forested interior to allow guests to explore the natural surroundings in a controlled manner.",
+        "body2": "On the western side of the island, a pier and jetty will be built to facilitate the arrival and departure of boats, while a watersports centre will be developed on the southern beach to offer recreational activities. The area surrounding the freshwater lake will be designated as a conservation zone, safeguarding the natural ecosystem from the direct impact of tourist activity. A helicopter landing pad will be installed in the central area of the island to provide an additional mode of access. Together, these additions will transform the island into a comprehensive tourist destination while maintaining a degree of environmental protection."
+      }
+    },
+    {
+      "id": 31,
+      "topic": "International tourist arrivals by world region (2010 and 2020)",
+      "type": "bar_chart",
+      "paragraphs": {
+        "introduction": "The bar chart compares the number of international tourist arrivals across six world regions - Europe, Asia-Pacific, the Americas, the Middle East, Africa, and South Asia - in 2010 and 2020, with figures given in millions.",
+        "overview": "Overall, Europe remained by far the most visited region in both years, and most regions recorded growth in tourist arrivals over the decade. The Middle East and Africa were notable exceptions, both experiencing slight declines, while South Asia demonstrated the most impressive proportional growth despite its relatively small absolute numbers.",
+        "body1": "Europe was the dominant tourist destination in both years, welcoming approximately 476 million visitors in 2010 and growing to around 583 million by 2020, an increase of over 100 million. The Asia-Pacific region recorded the second highest figures, rising from approximately 204 million in 2010 to 295 million in 2020, a substantial increase in both absolute and proportional terms. The Americas also saw growth, rising from 150 million to 167 million, though this increase was proportionally more modest than those recorded by Europe and Asia-Pacific.",
+        "body2": "The Middle East experienced a slight decline in tourist arrivals over the decade, falling from approximately 60 million in 2010 to 58 million in 2020, possibly reflecting the impact of regional instability during this period. Africa similarly recorded a small decrease, from 49 million to 44 million, suggesting ongoing challenges in attracting international visitors. South Asia, while recording the smallest absolute numbers of the six regions, demonstrated notable proportional growth, rising from 11 million in 2010 to 19 million in 2020, an increase of approximately 73%, making it the fastest-growing region in relative terms over the decade."
+      }
+    },
+    {
+      "id": 32,
+      "topic": "Percentage of male and female students enrolled in six university subjects",
+      "type": "bar_chart",
+      "paragraphs": {
+        "introduction": "The bar chart shows the proportion of male and female students enrolled in six university subjects - engineering, medicine, law, education, business, and arts - illustrating the gender distribution within each discipline.",
+        "overview": "Overall, the data reveals significant gender imbalances in several subjects, most strikingly in engineering and education, which sit at opposite extremes of the gender spectrum. By contrast, medicine and law show a more balanced distribution, though slight majorities in each case reflect recognisable patterns in subject preference.",
+        "body1": "Engineering was the most male-dominated subject in the dataset, with 85% of students being male and only 15% female. At the other extreme, education had the highest proportion of female students at 78%, with men accounting for only 22%. Arts also skewed strongly towards women, with 71% female and 29% male students. These three subjects represent the clearest examples of gender polarisation in the data, and the patterns in engineering and education in particular reflect long-standing influences on subject choice at university level.",
+        "body2": "The remaining three subjects showed distributions closer to gender parity. Medicine had a slight female majority, with 55% women and 45% men, while law was similarly balanced at 52% female and 48% male. Business leaned slightly towards a male majority, with 58% of students being men and 42% women. While these subjects are considerably more balanced than engineering or education, they still reflect modest but recognisable gender tendencies. Overall, the data suggests that gender continues to influence subject choice considerably, particularly at the extremes of the distribution."
+      }
+    },
+    {
+      "id": 33,
+      "topic": "Household water consumption per person per year in six countries",
+      "type": "bar_chart",
+      "paragraphs": {
+        "introduction": "The bar chart illustrates the average volume of water consumed per person per year, measured in cubic metres, for households in six countries: the United States, Australia, the United Kingdom, Germany, China, and Bangladesh.",
+        "overview": "Overall, there is a striking variation in per capita household water consumption across the six countries. The United States and Australia consume vastly more water per person than the remaining nations, while Bangladesh records by far the lowest level at a fraction of the amounts used in wealthier countries.",
+        "body1": "The United States had the highest per capita household water consumption by a considerable margin, at 600 cubic metres per person per year. Australia was the second largest consumer at 490 cubic metres, a figure broadly comparable to that of the United States and likely reflecting the country's arid climate and reliance on water-intensive practices. Together, these two nations consumed far more water per person than any of the other countries in the dataset, highlighting the high levels of household water usage associated with certain developed economies.",
+        "body2": "The United Kingdom and Germany recorded intermediate levels of consumption at 150 and 120 cubic metres per person respectively, considerably lower than the figures for the US and Australia but substantially higher than those of the two Asian countries. China's per capita consumption stood at 80 cubic metres per year, while Bangladesh recorded the lowest figure of just 30 cubic metres, less than one-twentieth of the US total. This striking range underscores profound differences in water availability, infrastructure, standard of living, and consumption habits between developed and developing nations."
+      }
+    },
+    {
+      "id": 34,
+      "topic": "Sources of electricity generation in a country (1990 and 2020)",
+      "type": "pie_chart",
+      "paragraphs": {
+        "introduction": "The two pie charts compare the proportion of electricity generated from five different sources - coal, natural gas, nuclear power, hydroelectric power, and renewables - in a single country in 1990 and 2020.",
+        "overview": "Overall, the most significant change over the thirty-year period was a dramatic reduction in the share of coal and a corresponding rise in the contribution of renewable energy. Natural gas also grew in importance, while nuclear and hydroelectric power recorded more modest changes.",
+        "body1": "In 1990, coal was the dominant source of electricity, accounting for 48% of total generation, nearly half of all electricity produced. Natural gas contributed 22%, nuclear power provided 18%, hydroelectric accounted for 8%, and renewables represented just 4%, reflecting the negligible role of clean energy at the time. By 2020, coal's share had fallen dramatically to 22%, a reduction of 26 percentage points over three decades, representing one of the most substantial shifts in the country's energy profile.",
+        "body2": "The decline in coal was offset by growth in several cleaner sources. Natural gas increased its share from 22% to 30%, becoming the single largest source of electricity by 2020. Renewables experienced the most dramatic proportional growth, rising from just 4% in 1990 to 22% in 2020, a more than fivefold increase reflecting significant investment in wind, solar, and other technologies. Hydroelectric power grew modestly from 8% to 10%, while nuclear's share declined slightly from 18% to 16%. Collectively, these changes represent a substantial transformation in the country's energy mix away from fossil fuels and towards cleaner alternatives."
+      }
+    },
+    {
+      "id": 35,
+      "topic": "Brick manufacturing process",
+      "type": "process",
+      "paragraphs": {
+        "introduction": "The diagram illustrates the process by which bricks are manufactured, tracing the sequence of stages from the initial extraction of raw clay from the ground through to the delivery of the finished product to customers.",
+        "overview": "Overall, the brick-making process involves several distinct and sequential stages, progressing from the preparation of raw materials through shaping and drying to high-temperature firing. The process is largely mechanised and produces a durable final product suitable for use in the construction industry.",
+        "body1": "The process begins when clay is extracted from the ground using a mechanical digger and is subsequently mixed with water and sand to achieve the correct consistency for moulding. This mixture is then pressed into rectangular moulds to form individual brick shapes, after which the bricks are cut to precise dimensions using a wire-cutting technique. The shaped bricks are transferred to drying chambers, where they remain for a period of between 24 and 48 hours to allow excess moisture to evaporate before the next stage.",
+        "body2": "Once sufficiently dry, the bricks are placed in a kiln and fired at temperatures ranging from 200 to 1,300 degrees Celsius, a process that hardens the clay and gives the bricks their characteristic strength and durability. After firing, the bricks undergo a controlled cooling phase to prevent cracking before they are packaged and prepared for dispatch. The finished bricks are then delivered to customers, typically builders, construction companies, and building materials retailers, completing the full manufacturing cycle from raw earth to usable product."
+      }
+    },
+    {
+      "id": 36,
+      "topic": "Proportion of household income spent on different categories in the UK and India",
+      "type": "pie_chart",
+      "paragraphs": {
+        "introduction": "The two pie charts compare the proportion of household income allocated to six spending categories - food, housing, transport, leisure, clothing, and other expenditure - in two countries: the United Kingdom, representing a developed economy, and India, representing a developing economy.",
+        "overview": "Overall, the most significant difference between the two countries is the far greater proportion of income devoted to food in India compared to the United Kingdom. While UK households distribute their spending relatively evenly across multiple categories, Indian households must allocate the largest share of their budget to meeting basic nutritional needs.",
+        "body1": "In the United Kingdom, housing was the single largest category of expenditure, accounting for 28% of household income. Food represented 17%, while transport absorbed 16%. Together, these three essential categories accounted for 61% of spending, leaving a meaningful proportion available for discretionary items. Leisure accounted for 14% of income, clothing for 12%, and other expenditure made up the remaining 13%, reflecting the relatively high purchasing power of UK households and their capacity to allocate funds across a range of non-essential categories.",
+        "body2": "In India, the spending pattern was markedly different, indicating far greater financial pressure on basic necessities. Food dominated household budgets, consuming 42% of income, more than double the proportion seen in the United Kingdom. Housing was the second largest category at 23%, followed by transport at 12% and clothing at 10%. Leisure accounted for only 8% of income in India compared to 14% in the UK, while other expenditure represented a mere 5%. The contrast between the two countries highlights how economic development fundamentally shapes household spending priorities, with less affluent populations devoting a much higher share of income to basic needs."
+      }
+    },
+    {
+      "id": 37,
+      "topic": "Average age of first marriage for men and women in four countries (1970-2010)",
+      "type": "line_graph",
+      "paragraphs": {
+        "introduction": "The line graph illustrates changes in the average age at which men and women first married in four countries - the United Kingdom, the United States, Sweden, and Japan - over the forty-year period from 1970 to 2010.",
+        "overview": "Overall, the age of first marriage rose for both men and women in all four countries throughout the period, reflecting a widespread and consistent social trend towards later marriage. Sweden recorded the highest marriage ages for both genders throughout, while Japan and the United States showed the most modest increases in absolute terms.",
+        "body1": "In the United Kingdom, the average age at first marriage for men rose from 24 in 1970 to 32 in 2010, an increase of 8 years. Women in the UK experienced an equally significant rise, from 22 to 30 over the same period. Sweden recorded the highest marriage ages throughout, with men rising from 26 to 35 and women from 23 to 33, representing the largest absolute increases of any country in the dataset. In the United States, men's average marriage age increased from 23 to 29, while women's rose from 21 to 27, a smaller increase than in the UK or Sweden.",
+        "body2": "Japan displayed a somewhat different pattern from the three Western countries. Japanese men already married at a relatively older age in 1970, averaging 27 years, and this figure rose to 31 by 2010, a more modest increase of 4 years. Japanese women similarly rose from an average of 24 to 29 over the period, a smaller change than those observed in Europe or the United States. Despite these more modest shifts, Japan still followed the universal trend of rising marriage age observed across all four countries. Taken together, the data demonstrate a consistent social shift towards later marriage across different cultural and economic contexts, possibly reflecting changing attitudes towards education, career development, and personal independence."
       }
     }
   ]
