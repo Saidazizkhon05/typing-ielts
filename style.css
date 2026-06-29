@@ -430,7 +430,7 @@ header {
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
   overscroll-behavior: contain;
-  padding-bottom: 1.5rem;
+  padding-bottom: 4rem;
 }
 
 #words {
@@ -502,21 +502,31 @@ header {
   z-index: -1;
 }
 
-.restart-btn {
+.typing-footer-actions {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
   align-self: center;
   margin-top: 0.75rem;
   margin-bottom: 0.25rem;
   flex-shrink: 0;
+}
+
+.icon-action-btn {
   background: none;
   border: none;
   color: var(--sub-color);
   font-size: 1.5rem;
   cursor: pointer;
   transition: color 0.2s, transform 0.2s;
+  padding: 0.25rem;
 }
 
-.restart-btn:hover {
+.icon-action-btn:hover {
   color: var(--text-color);
+}
+
+.icon-action-btn.restart-icon:hover {
   transform: rotate(90deg);
 }
 

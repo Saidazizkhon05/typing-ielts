@@ -3,6 +3,7 @@ import { state } from './state.js';
 import { calculateStats } from './utils.js';
 
 const CARET_LINE_OFFSET = 48;
+const CARET_HEIGHT = 32; // matches #caret height: 2rem
 
 export function updateLiveStats() {
     const stats = calculateStats(state);
@@ -66,7 +67,15 @@ function scrollCaretIntoView(caretTop) {
     const scrollContainer = DOM.typingAreaWrapper;
     if (!scrollContainer) return;
 
-    scrollContainer.scrollTop = Math.max(0, caretTop - CARET_LINE_OFFSET);
+    const caretBottom = caretTop + CARET_HEIGHT;
+    const visibleTop = scrollContainer.scrollTop;
+    const visibleBottom = visibleTop + scrollContainer.clientHeight;
+
+    if (caretTop < visibleTop) {
+        scrollContainer.scrollTop = Math.max(0, caretTop - CARET_LINE_OFFSET);
+    } else if (caretBottom > visibleBottom) {
+        scrollContainer.scrollTop = caretTop - CARET_LINE_OFFSET;
+    }
 }
 
 export function updateCaretPosition() {

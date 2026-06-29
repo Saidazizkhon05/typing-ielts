@@ -103,6 +103,7 @@ export function setupEventListeners() {
     });
 
     DOM.restartBtn.addEventListener('click', () => initTest(false));
+    DOM.nextTypingBtn.addEventListener('click', () => initTest(true));
     DOM.repeatBtn.addEventListener('click', () => initTest(false));
     DOM.nextBtn.addEventListener('click', () => initTest(true));
 

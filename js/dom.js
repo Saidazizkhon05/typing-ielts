@@ -33,6 +33,7 @@ export const DOM = {
     resultTime: document.getElementById('result-time'),
     
     restartBtn: document.getElementById('restart-btn'),
+    nextTypingBtn: document.getElementById('next-typing-btn'),
     nextBtn: document.getElementById('next-btn'),
     repeatBtn: document.getElementById('repeat-btn'),
     menuBtn: document.getElementById('menu-btn'),
